@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warkop LIAN - Kesederhanaan Rasa, Juara Kopi'O</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-coffee"></i>
+                    <h2>Warkop LIAN</h2>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#reviews">Ulasan</a></li>
+                    <li><a href="#location">Lokasi</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Warkop LIAN – Kesederhanaan Rasa, Juara Kopi'O</h1>
+            <p>Kopi tradisional berkualitas dengan suasana hangat dan ramah. Tempat dimana setiap tegukan kopi membawa kenangan dan percakapan yang berarti.</p>
+            <div class="cta-buttons">
+                <a href="#menu" class="btn btn-primary">Lihat Menu</a>
+                <a href="#location" class="btn btn-secondary">Kunjungi Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tentang Warkop LIAN</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Warkop LIAN adalah warung kopi sederhana yang berdiri dengan filosofi "kesederhanaan rasa". Di sini, kami fokus pada kualitas kopi tradisional yang diseduh dengan penuh perhatian dan kehangatan.</p>
+                    <p>Dikelola langsung oleh pemilik yang ramah, setiap pengunjung akan merasakan suasana yang membumi dan nyaman seperti berkunjung ke rumah sendiri. Kami percaya bahwa kopi terbaik adalah kopi yang bisa dinikmati dengan santai, ditemani percakapan hangat atau keheningan yang menenangkan.</p>
+                    <p>Warkop LIAN bukan sekadar tempat minum kopi, tapi ruang komunitas kecil di tengah hiruk-pikuk kota Samarinda. Tempat di mana setiap orang diterima dengan senyuman, dan setiap cangkir kopi disajikan dengan ketulusan.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Suasana Warkop LIAN">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-highlights" id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Menu Andalan</h2>
+            </div>
+            
+            <div class="menu-items">
+                <div class="menu-item">
+                    <i class="fas fa-mug-hot"></i>
+                    <h3>Kopi'O (Tanpa Gula)</h3>
+                    <p>Signature kami. Kopi hitam murni tanpa gula, diseduh dengan teknik tradisional untuk mendapatkan rasa kuat dan aroma yang autentik. Juaranya Kopi'O!</p>
+                </div>
+                
+                <div class="menu-item">
+                    <i class="fas fa-coffee"></i>
+                    <h3>Kopi Hitam</h3>
+                    <p>Kopi hitam klasik dengan tingkat kematangan yang pas. Untuk penikmat kopi sejati yang menyukai rasa asli biji kopi pilihan.</p>
+                </div>
+                
+                <div class="menu-item">
+                    <i class="fas fa-bread-slice"></i>
+                    <h3>Roti Bakar</h3>
+                    <p>Pendamping kopi yang sempurna. Roti bakar dengan berbagai pilihan topping sederhana namun memuaskan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galeri</h2>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Kopi Warkop LIAN">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Roti Bakar">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Suasana Warkop">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Street View Warkop LIAN">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ulasan Pelanggan</h2>
+            </div>
+            
+            <div class="rating">
+                <div class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="rating-text">5.0 ⭐⭐⭐⭐⭐ (Berdasarkan 4 ulasan Google)</div>
+            </div>
+            
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p>Mantap ini kopinya, terbaik pokoknya. Suasana sederhana tapi cozy, pemiliknya ramah banget. Udah jadi langganan tiap pagi.</p>
+                    <div class="testimonial-author">- Pelanggan Setia</div>
+                </div>
+                
+                <div class="testimonial">
+                    <p>Juaranya Kopi'O! Gak perlu ditambahin apa-apa lagi, rasanya sudah pas. Yang cari kopi hitam asli wajib coba kesini.</p>
+                    <div class="testimonial-author">- Penikmat Kopi</div>
+                </div>
+                
+                <div class="testimonial">
+                    <p>Suasana sederhana, pemilik ramah, kopi o tanpa gula enak banget. Tempatnya nyaman buat nongkrong atau kerja ringan.</p>
+                    <div class="testimonial-author">- Pengunjung Rutin</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section id="location">
+        <div class="container">
+            <div class="section-title">
+                <h2>Lokasi & Kontak</h2>
+            </div>
+            
+            <div class="location-contact">
+                <div class="location-info">
+                    <h3>Kunjungi Warkop LIAN</h3>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Alamat:</strong><br>
+                                Bumi Sempaja, Ruko Griya Niaga 2, Nomor AA, Perumahan<br>
+                                G5W8+QQ, South Sempaja, Samarinda City, East Kalimantan
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Jam Operasional:</strong><br>
+                                Buka - Tutup pukul 18.00<br>
+                                <em>Setiap hari (kecuali ada pemberitahuan)</em>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-concierge-bell"></i>
+                            <div>
+                                <strong>Layanan:</strong><br>
+                                Dine-in • Takeaway
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-info-circle"></i>
+                            <div>
+                                <strong>Status:</strong> <span style="color: #4CAF50; font-weight: 600;">Buka</span> (saat jam operasional)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>Google Maps</h3>
+                        <p>Embed Google Maps di sini dengan koordinat:<br>
+                        <strong>G5W8+QQ, South Sempaja, Samarinda City</strong></p>
+                        <p>Atau gunakan alamat: Bumi Sempaja, Ruko Griya Niaga 2, Nomor AA, Perumahan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Warkop LIAN</h3>
+                    <p>Kesederhanaan Rasa, Juara Kopi'O. Warung kopi tradisional dengan kualitas terbaik dan suasana hangat di Samarinda.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                        <li><a href="#location">Lokasi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Kontak</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Bumi Sempaja, Samarinda</li>
+                        <li><i class="fas fa-clock"></i> Buka - 18.00</li>
+                        <li><i class="fas fa-coffee"></i> Dine-in & Takeaway</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Warkop LIAN. Semua hak dilindungi. | Website Company Profile</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobileMenuBtn').addEventListener('click', function() {
+            document.getElementById('navLinks').classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        const navLinks = document.querySelectorAll('.nav-links a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navLinks').classList.remove('active');
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
